@@ -23,6 +23,8 @@ zcolors.plugin() {
     # [S]earch results: blac[k] on bright [Y]ellow
     # [P]rompt: bright [W]hite on [b]lue
     # This line was causing problems
+    # less+=( --use-color '-DSkY$DPWb'  )
+    # These lines are attempted fixes but also caused problems
     # less+=( --use-color '-DSkY' '-DPWb' )
     # less+=( --use-color '-Ds30;103p97;44' )
     less=( --use-color '-Ds30;103p97;44' )
