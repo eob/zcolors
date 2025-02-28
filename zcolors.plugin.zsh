@@ -22,7 +22,7 @@ zcolors.plugin() {
 
     # [S]earch results: blac[k] on bright [Y]ellow
     # [P]rompt: bright [W]hite on [b]lue
-    less+=( --use-color '-DSkY$DPWb'  )
+    less+=( --use-color '-DSkY' '-DPWb' )
   fi
 
   add-zsh-hook precmd .zcolors.precmd
