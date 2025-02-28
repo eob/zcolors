@@ -27,7 +27,8 @@ zcolors.plugin() {
     # These lines are attempted fixes but also caused problems
     # less+=( --use-color '-DSkY' '-DPWb' )
     # less+=( --use-color '-Ds30;103p97;44' )
-    less=( --use-color '-Ds30;103p97;44' )
+    # less=( --use-color '-Ds30;103p97;44' )
+    less+=( --use-color '-DSkY -DPWb'  )
   fi
 
   add-zsh-hook precmd .zcolors.precmd
