@@ -24,7 +24,8 @@ zcolors.plugin() {
     # [P]rompt: bright [W]hite on [b]lue
     # This line was causing problems
     # less+=( --use-color '-DSkY' '-DPWb' )
-    less+=( --use-color '-Ds30;103p97;44' )
+    # less+=( --use-color '-Ds30;103p97;44' )
+    less=( --use-color '-Ds30;103p97;44' )
   fi
 
   add-zsh-hook precmd .zcolors.precmd
